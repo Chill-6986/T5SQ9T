@@ -1,0 +1,6 @@
+local args = {
+   [1] = math.huge,
+}
+
+
+game:GetService("ReplicatedStorage").events.CashYouWillNeverGet:FireServer(unpack(args))
